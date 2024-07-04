@@ -70,7 +70,8 @@ function toggleMode() {
         root.style.setProperty('--nav-background-color', 'var(--nav-background-color-light)');
         root.style.setProperty('--nav-text-color', 'var(--nav-text-color-light)');
         toggleButton.textContent = '☀️';
-        profileImage.setAttribute('src', 'images/white-back-img.jpg');
+        // profileImage.setAttribute('src', 'images/white-back-img.jpg');
+        profileImage.setAttribute('src', 'white-back-img.jpg');
     } else {
         root.setAttribute('data-theme', 'dark');
         root.style.setProperty('--background-color', 'var(--background-color-dark)');
@@ -82,7 +83,8 @@ function toggleMode() {
         root.style.setProperty('--nav-background-color', 'var(--nav-background-color-dark)');
         root.style.setProperty('--nav-text-color', 'var(--nav-text-color-dark)');
         toggleButton.textContent = '🌙 ';
-        profileImage.setAttribute('src', 'images/dark-back-img.jpg');
+        // profileImage.setAttribute('src', 'images/dark-back-img.jpg');
+        profileImage.setAttribute('src', 'dark-back-img.jpg');
     }
 }
 
